@@ -1,0 +1,155 @@
+@CHARSET "UTF-8";
+
+/* START common elements */
+html,body {
+	background-color: #c8c8aa;
+	width: 1000px;
+	margin: 0 auto;
+	font-family:  SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;    
+	font-size: 1em;
+}
+
+h1,h2{color:#990000;       
+    font-family: tahoma, arial, serif;
+}
+
+legend {
+	color:#282822;
+}
+table{
+	width: 100%;
+	border-collapse: separate; 
+	border-radius: 2px;
+	margin: 0 auto;
+    }
+	tr {
+		background-color: #d8d8c3;
+	}
+
+    td{
+	border:1px solid #282822;
+	border-radius: 2px;
+    padding: 2px;
+	text-align: center;
+	
+	} 
+    .error {
+		color: #FF0000;
+		}
+	p.ok {
+		color: green;
+	}	
+	p.valasz {
+		color: red;
+	}
+	.fonev {
+		color: red;
+	}
+    .ige{
+		color: blue;
+    }	
+	.melleknev {
+		color: green;
+	}
+	.hatarozoszo {
+		color: orange;
+	}
+	.kifejezes {
+		color: purple;
+	}	
+a:link {
+    color: #aaaa55;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+    color: #666633;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #33331a;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color:#000000;
+    background-color: transparent;
+    text-decoration: underline;
+}
+p.nyit{background-color: orange;
+       width: 54%;
+	   border:1px solid white;
+	   border-radius: 2px;
+}
+#focus{border-color: green;
+}
+#button{border-color: green;
+}
+
+/* END common elements */
+
+/* START #top */
+#top {
+	width: 1000px;
+	height: 100px;
+	background-color: #eaeacc;
+	border:1px solid red;
+	text-align: center;
+	border:1px solid #282822;
+}
+/* END #top */
+
+/* START #body_content */
+#body_content {
+	width: 1000px;
+	float: left;
+	/*background: url("bg_sample.gif") #fff center repeat-y;*/
+	/*border:1px solid orange;*/
+}
+
+#left {
+	float: left;
+	width: 230px;
+	padding: 0 10px 0 10px;
+	
+}
+
+#left ul {
+	list-style: none;
+	display: block;
+	margin-left: -40px;	
+}
+
+#center {
+	float: left;
+	width: 586px;
+	padding: 0 10px 0 10px;
+	/*border:1px solid red;*/
+}
+#right {
+	float: left;
+	width: 120px;
+	padding: 0 10px 0 10px;
+	/*border:1px solid red;*/
+}
+#flag{width: 120px;
+      margin-top:15px;
+	
+}
+/* END #body_content */
+
+/* START #foot */
+#foot {
+	clear: both;
+	width: 1000px;
+	height: 75px;
+	background-color:#eaeacc;
+	width: 1000px;
+	border:1px solid #282822;	
+}
+
+#foot p {
+	text-align: center;
+}
+/* END #foot */
